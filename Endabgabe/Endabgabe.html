@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Endabgabe</title>
+    <meta charset="utf-8" />
+    <!--Load FUDGE-->
+    <script type="text/javascript" src="../FudgePhysics/OimoPhysics.js"></script>
+    <script type="text/javascript" src="../FudgeCore/FudgeCore.js"></script>
+    <script type="text/javascript" src="../FudgeAid/FudgeAid.js"></script>
+    <script type="text/javascript" src="../FudgeUserinterface/FudgeUserInterface.js"></script>
+    <script src='Main.js'></script>
+    <script src='Projectile.js'></script>
+    <script src='Arrow.js'></script>
+    <script src='Fireball.js'></script>
+    <script src='Avatar.js'></script>
+    <script src='Hud.js'></script>
+    <script type="text/javascript" src="ScriptComponents/ComponentScriptEnemie.js" editor="true"></script>
+    <!--Link stylesheet and internal resources-->
+    <link rel="stylesheet" href="Endabgabe.css" />
+    <link type="resources" src="Endabgabe.json" />
+    <!--Auto-View-->
+</head>
+
+<body>
+    <!--Canvas for FUDGE to render to-->
+    <canvas class="fullscreen">
+    </canvas>
+
+    
+    <div id="Hud">
+        <p id="weaponName">Weapon:</p>
+        <input id="weapon" type=text key="weapon" min="0" max="10" disabled/>
+    </div>
+
+    <div id="bosslifeDiv">
+        <p id="bossname">Boss:</p>
+        <progress id="bosslife" key="bosslife" max="100"></progress>    
+    </div>
+
+    <div id="avatarLifeDiv">
+        <p id="avatarLifeName">Life:</p>
+        <progress id="avatarLife" key="avatarLife" max="100"></progress>    
+    </div>
+
+    <div id="gameover">
+        <p id="gameovertext">Gameover</p>
+        <div id="restartLevel">Restart level</div>
+        <div id="levelSelection2">Choose another level</div>
+    </div>
+
+    <div id="win">
+        <p id="wintext">Congratulations!!!</p>
+        <div id="playagain">Play again</div>
+        <div id="levelSelection">Choose another level</div>
+    </div>
+
+    <div id="crosshair">
+        <div id="crosshair_left" class="sword_left"></div>
+        <div id="crosshair_right" class="sword_right"></div>
+        <div id="crosshair_top" class="sword_top"></div>
+        <div id="crosshair_bottom" class="sword_bottom"></div>
+    </div>
+</body>
+
+</html>
