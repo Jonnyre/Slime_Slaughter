@@ -18,7 +18,8 @@ Zum Repo des WPMs: [PRIMA](https://github.com/JirkaDellOro/Prima)
 |    | Name                  | Jonathan Rißler
 |    | Matrikelnummer        | 263246
 |  1 | Nutzerinteraktion     | Der Nutzer kann mit der Applikation interagieren. Mit welchen Mitteln und welchen Aktionen werden welche Reaktionen ausgelöst?                                                                                                                                                 |
-|  2 | Objektinteraktion     | - Kollision Projektile mit Level\  - Kollision Projektile mit Gegner/Avatar\  - Kollision Avatar Lava Feld\  - Trigger beim Herunterfallen vom Level\  - Raycast Sprung Avatar sowie Schlag Schwert                                                                           |
+|  2 | Objektinteraktion     | <ul>
+  <li>Kollision Projektile mit Level</li><li>Kollision Projektile mit Gegner/Avatar</li>  - Kollision Avatar Lava Feld\  - Trigger beim Herunterfallen vom Level\  - Raycast Sprung Avatar sowie Schlag Schwert                                                                           |
 |  3 | Objektanzahl variabel | - Feuerbälle sowie Pfeile werden zur Laufzeit erstellt und variieren dadurch ständig in der
 Anzahl                                                                                                                                                                       |
 |  4 | Szenenhierarchie      | Die Szenenhierarchie ist sinnvoll aufgebaut. Wer ist wessen Parent, wie sind Elemente in anderen gruppiert und warum?                                                                                                                                                         |
