@@ -27,4 +27,4 @@ Zum Repo des WPMs: [PRIMA](https://github.com/JirkaDellOro/Prima)
 |  8 | Verhaltensklassen     | - Hud <br> - Projectile <br> -> Arrow <br> -> Fireball <br> - Avatar <br> - ComponentScriptEnemie  |
 |  9 | Subklassen            | Projectile: <br> - Arrow <br> - Fireball  |
 | 10 | Maße & Positionen     | - Avatar & Gegner (1,1,1) <br> - Boss (3,4,3) <br> - Level (66,0.5,9) <br> - Bodenstück (3,1,1) <br> Positionen: <br> - Ursprung: Startpunkt Avatar <br> - Gegnerposition variiert je nach Level  |
-| 11 | Event-System          | Physik: <br> - COLLISION_ENTER <br> - TRIGGER_ENTER <br> Weitere: <br> - Load <br> - Click <br> - Mousemove <br> - Pointerlockchange <br> - Keydown <br> - keyup  |
+| 11 | Event-System          | Physik: <br> - COLLISION_ENTER (Projectile und Lava) <br> - TRIGGER_ENTER (Trigger herunterfallen) <br> Weitere: <br> - Load <br> - Click <br> - Mousemove <br> - Pointerlockchange <br> - Keydown <br> - keyup  |
