@@ -19,13 +19,11 @@ Zum Repo des WPMs: [PRIMA](https://github.com/JirkaDellOro/Prima)
 |    | Matrikelnummer        | 263246
 |  1 | Nutzerinteraktion     | Der Nutzer kann mit der Applikation interagieren. Mit welchen Mitteln und welchen Aktionen werden welche Reaktionen ausgelöst?                                                                                                                                                 |
 |  2 | Objektinteraktion     | -Kollision Projektile mit Level <br> -Kollision Projektile mit Gegner/Avatar <br> -Kollision Avatar Lava Feld <br> -Trigger beim Herunterfallen vom Level <br> -Raycast Sprung Avatar sowie Schlag Schwert<br>  |
-|  3 | Objektanzahl variabel | - Feuerbälle sowie Pfeile werden zur Laufzeit erstellt und variieren dadurch ständig in der
-Anzahl  |
+|  3 | Objektanzahl variabel | - Feuerbälle sowie Pfeile werden zur Laufzeit erstellt und variieren dadurch ständig in der Anzahl  |
 |  4 | Szenenhierarchie      | Die Szenenhierarchie ist sinnvoll aufgebaut. Wer ist wessen Parent, wie sind Elemente in anderen gruppiert und warum?                                                                                                                                                         |
 |  5 | Sound                 | - Avatar bekommt Schaden <br> - Hintergrundmusik <br> - Bossgeräusch <br> - Bogenschuss <br> - Gegner bekommt Schaden <br> - Gegner stirbt <br> - Lavablubbern <br> - Schwertgeräusch <br> - Springen  |
 |  6 | GUI                   | - Boss Lebensanzeige <br> - Avatar Lebensanzeige <br> - Ausgerüstete Waffe <br> - Crosshair  |
-|  7 | Externe Daten         | Root wird aus JSON geladen
- Parameter für Gegner in JSON gespeichert                                                                                   |
+|  7 | Externe Daten         | - Root wird aus JSON geladen <br> - Parameter für Gegner in JSON gespeichert  |
 |  8 | Verhaltensklassen     | Das Verhalten von Objekten ist in den Methoden von Klassen definiert, die in externen Dateien abgelegt sind. Welche Klassen sind dies und welches Verhalten wird dort beschrieben?                                                                                         |
 |  9 | Subklassen            | Projectile: <br> - Arrow <br> - Fireball  |
 | 10 | Maße & Positionen     | - Avatar & Gegner (1,1,1) <br> - Boss (3,4,3) <br> - Level (66,0.5,9) <br> - Bodenstück (3,1,1) <br> Positionen: <br> - Ursprung: Startpunkt Avatar <br> - Gegnerposition variiert je nach Level  |
