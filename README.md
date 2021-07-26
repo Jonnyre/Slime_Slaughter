@@ -17,14 +17,14 @@ Zum Repo des WPMs: [PRIMA](https://github.com/JirkaDellOro/Prima)
 |    | Titel                 | Slime Slaughter
 |    | Name                  | Jonathan Rißler
 |    | Matrikelnummer        | 263246
-|  1 | Nutzerinteraktion     | Der Nutzer kann mit der Applikation interagieren. Mit welchen Mitteln und welchen Aktionen werden welche Reaktionen ausgelöst?                                                                                                                                                 |
-|  2 | Objektinteraktion     | -Kollision Projektile mit Level <br> -Kollision Projektile mit Gegner/Avatar <br> -Kollision Avatar Lava Feld <br> -Trigger beim Herunterfallen vom Level <br> -Raycast Sprung Avatar sowie Schlag Schwert<br>  |
+|  1 | Nutzerinteraktion     | - WASD: Steuerung <br> - Space: Jump <br> - Shift: Sprint <br> - 1/2 Wechsel Schwert/Bogen <br> - Linke Maustaste: Angriff mit Waffe  |
+|  2 | Objektinteraktion     | - Kollision Projektile mit Level <br> - Kollision Projektile mit Gegner/Avatar <br> - Kollision Avatar Lava Feld <br> - Trigger beim Herunterfallen vom Level <br> - Raycast Sprung Avatar sowie Schlag Schwert<br>  |
 |  3 | Objektanzahl variabel | - Feuerbälle sowie Pfeile werden zur Laufzeit erstellt und variieren dadurch ständig in der Anzahl  |
-|  4 | Szenenhierarchie      | Die Szenenhierarchie ist sinnvoll aufgebaut. Wer ist wessen Parent, wie sind Elemente in anderen gruppiert und warum?                                                                                                                                                         |
+|  4 | Szenenhierarchie      | root <br>   trigger <br>   projectiles <br>   avatar <br>            camNode|
 |  5 | Sound                 | - Avatar bekommt Schaden <br> - Hintergrundmusik <br> - Bossgeräusch <br> - Bogenschuss <br> - Gegner bekommt Schaden <br> - Gegner stirbt <br> - Lavablubbern <br> - Schwertgeräusch <br> - Springen  |
 |  6 | GUI                   | - Boss Lebensanzeige <br> - Avatar Lebensanzeige <br> - Ausgerüstete Waffe <br> - Crosshair  |
 |  7 | Externe Daten         | - Root wird aus JSON geladen <br> - Parameter für Gegner in JSON gespeichert  |
-|  8 | Verhaltensklassen     | Das Verhalten von Objekten ist in den Methoden von Klassen definiert, die in externen Dateien abgelegt sind. Welche Klassen sind dies und welches Verhalten wird dort beschrieben?                                                                                         |
+|  8 | Verhaltensklassen     | - Hud <br> - Projectile <br> -> Arrow <br> -> Fireball <br> Avatar <br> ComponentScriptEnemie  |
 |  9 | Subklassen            | Projectile: <br> - Arrow <br> - Fireball  |
 | 10 | Maße & Positionen     | - Avatar & Gegner (1,1,1) <br> - Boss (3,4,3) <br> - Level (66,0.5,9) <br> - Bodenstück (3,1,1) <br> Positionen: <br> - Ursprung: Startpunkt Avatar <br> - Gegnerposition variiert je nach Level  |
 | 11 | Event-System          | Physik: <br> - COLLISION_ENTER <br> - TRIGGER_ENTER <br> Weitere: <br> - Load <br> - Click <br> - Mousemove <br> - Pointerlockchange <br> - Keydown <br> - keyup  |
