@@ -22,7 +22,7 @@ Zum Repo des WPMs: [PRIMA](https://github.com/JirkaDellOro/Prima)
                                Kollision Projektile mit Gegner/Avatar\
                                Kollision Avatar Lava Feld\
                                Trigger beim Herunterfallen vom Level\
-                               Raycast Sprung Avatar sowie Schlag Schwert\                                                                           |
+                               Raycast Sprung Avatar sowie Schlag Schwert\  |
 |  3 | Objektanzahl variabel | - Feuerbälle sowie Pfeile werden zur Laufzeit erstellt und variieren dadurch ständig in der
 Anzahl                                                                                                                                                                       |
 |  4 | Szenenhierarchie      | Die Szenenhierarchie ist sinnvoll aufgebaut. Wer ist wessen Parent, wie sind Elemente in anderen gruppiert und warum?                                                                                                                                                         |
