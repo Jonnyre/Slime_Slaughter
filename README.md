@@ -20,7 +20,7 @@ Zum Repo des WPMs: [PRIMA](https://github.com/JirkaDellOro/Prima)
 |  1 | Nutzerinteraktion     | - WASD: Steuerung <br> - Space: Jump <br> - Shift: Sprint <br> - 1/2 Wechsel Schwert/Bogen <br> - Linke Maustaste: Angriff mit Waffe  |
 |  2 | Objektinteraktion     | - Kollision Projektile mit Level <br> - Kollision Projektile mit Gegner/Avatar <br> - Kollision Avatar Lava Feld <br> - Trigger beim Herunterfallen vom Level <br> - Raycast Sprung Avatar sowie Schlag Schwert<br>  |
 |  3 | Objektanzahl variabel | - Feuerbälle sowie Pfeile werden zur Laufzeit erstellt und variieren dadurch ständig in der Anzahl  |
-|  4 | Szenenhierarchie      | root <br> - trigger <br> - projectiles <br> - avatar <br> ----> camNode <br> - level1-5 <br> ----> level <br> -------> floor <br> ----------> row1-23 <br> -------------> piece1-10/lava -------> walls <br> ----------> row1-23|
+|  4 | Szenenhierarchie      | root <br> - trigger <br> - projectiles <br> - avatar <br> ----> camNode <br> - level1-5 <br> ----> level <br> -------> floor <br> ----------> row1-23 <br> -------------> piece1-10/lava <br> -------> walls <br> ----------> wall1-4 <br> ----> enemies <br> -------> boss <br> -------> enemie1-5|
 |  5 | Sound                 | - Avatar bekommt Schaden <br> - Hintergrundmusik <br> - Bossgeräusch <br> - Bogenschuss <br> - Gegner bekommt Schaden <br> - Gegner stirbt <br> - Lavablubbern <br> - Schwertgeräusch <br> - Springen  |
 |  6 | GUI                   | - Boss Lebensanzeige <br> - Avatar Lebensanzeige <br> - Ausgerüstete Waffe <br> - Crosshair  |
 |  7 | Externe Daten         | - Root wird aus JSON geladen <br> - Parameter für Gegner in JSON gespeichert  |
